@@ -19,7 +19,7 @@ void main() {
   const String fullName = "John Elder";   // used at compiled time
   final age = 34;    // used at runtime. eg the time always change
 
-  print(fullName + " is " + age + " years old.");
+  print("$fullName is $age years old.");
 
 
 
