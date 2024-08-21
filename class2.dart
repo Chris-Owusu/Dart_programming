@@ -1,7 +1,16 @@
 void main() {
-  
-  Person person = Person("Max", "male", 12);
-  person.showData();
+  // Class
+  Person p1 = Person();
+  p1.addData("Max", "male", 23);
+
+  Person person2 = Person();
+  person2.name = "Jane";
+  person2.sex = "female";
+  person2.age = 31;
+
+  p1.showData();
+  person2.showData();
+
 }
 
 
@@ -11,7 +20,7 @@ class Person {
   int? age;
 
   // Constructor
-  Person(String name, String sex, int age) {
+  void addData(String name, String sex, int age) {
     this.name = name;
     this.sex = sex;
     this.age = age;
