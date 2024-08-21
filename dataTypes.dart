@@ -22,13 +22,5 @@ void main() {
   // Dynamic
   dynamic notSure = "Could Be";
   print("Dynamic: $notSure");
- 
-
-
-
-
-
-
-
 
 }
