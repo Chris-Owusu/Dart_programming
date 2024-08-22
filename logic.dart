@@ -10,4 +10,12 @@ void main() {
     print("Number is probably greater that 3");
   }
 
+
+  // Ternary Operations 
+  int num1 = 1;
+  int num2 = 2;
+  int num3 = 3;
+  var sum = (num1 + num2 == num3)? "Sum is equal to 3" : "sum isn't 3";
+  print(sum);
+
 }
