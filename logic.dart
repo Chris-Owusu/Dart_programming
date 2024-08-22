@@ -18,4 +18,29 @@ void main() {
   var sum = (num1 + num2 == num3)? "Sum is equal to 3" : "sum isn't 3";
   print(sum);
 
+  // Switch Statement 
+  String? name = "ama";
+
+  switch (name) {
+    case "sam":
+      print("name is $name and not sam");
+      break;
+    
+    case "dan":
+      print("name is $name and not dan");
+      break;
+    
+    case "john":
+      print("name is $name and not john");
+      break;
+
+    case "ama":
+      print("$name is present");
+      break;
+
+    default:
+      print("$name isn't one of the options..");
+      break;
+  }
+
 }
